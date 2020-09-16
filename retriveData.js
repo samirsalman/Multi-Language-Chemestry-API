@@ -62,6 +62,39 @@ async function getData(lang, url) {
     JSON.stringify(compounds)
   );
 }
-for (var el in sources) {
+
+async function getPeriodic(lang, url) {
+  var res = await axios.default.get(url);
+  var parsedHtml = parse(res.data);
+  var tableRows = parsedHtml.querySelector("#ebody").childNodes[3].childNodes[2]
+    .childNodes;
+
+  console.log(tableRows);
+  return;
+
+  var compounds = [];
+
+  for (var i = 1; i < tableRows.length; i = i + 2) {
+    const obj = {
+      atomicNumber: parseInt(tableRows[i].childNodes[0].text),
+      name: tableRows[i].childNodes[2].text,
+      symbol: tableRows[i].childNodes[1].text,
+    };
+    compounds.push(obj);
+  }
+
+  fs.writeFileSync(
+    `./chemical_compounds_${lang}.json`,
+    JSON.stringify(compounds)
+  );
+}
+
+getPeriodic(
+  "it",
+  "https://www.periodni.com/elements_names_sorted_alphabetically.html"
+);
+
+/*for (var el in sources) {
   getData(sources[el].lang, sources[el].url);
 }
+*/

@@ -50,6 +50,70 @@ app.get("/compounds/all", verifyLang, (req, res, next) => {
   }
 });
 
+const periodicName = function (req, res, next) {
+  var data = JSON.parse(
+    fs
+      .readFileSync(path.join(FILES_PATH, `/periodicData.json`))
+      .toString("utf8")
+  );
+  if (req.query.name !== undefined) {
+    try {
+      var data = JSON.parse(
+        fs
+          .readFileSync(path.join(FILES_PATH, `/periodicData.json`))
+          .toString("utf8")
+      );
+      var selected = data.filter((el) => {
+        return (
+          el.name.toLowerCase().trim().toString() ===
+          req.query.name.trim().toLowerCase().toString()
+        );
+      });
+      req.selected = selected;
+      next();
+    } catch (err) {
+      res.status(500).send({ error: true, message: "Invalid input syntax" });
+    }
+    next();
+  } else {
+    req.selected = data;
+    next();
+  }
+};
+
+const periodicGroup = function (req, res, next) {
+  console.log(req.selected);
+  if (req.query.gas !== undefined) {
+    var data = req.query.selected;
+
+    selected = data.filter((el) => {
+      return el.groupBlock === req.query.group;
+    });
+
+    req.selected = selected;
+    next();
+  } else {
+    next();
+  }
+};
+
+const periodicState = function (req, res, next) {
+  console.log(req.selected);
+
+  if (req.query.state !== undefined) {
+    var data = req.selected;
+
+    selected = data.filter((el) => {
+      return el.standardState === req.query.state;
+    });
+
+    req.selected = selected;
+    next();
+  } else {
+    next();
+  }
+};
+
 const thereIsName = function (req, res, next) {
   if (req.query.name !== undefined) {
     try {
@@ -77,6 +141,53 @@ const thereIsName = function (req, res, next) {
     next();
   }
 };
+
+app.get(
+  "/periodicTable",
+  periodicName,
+  periodicGroup,
+  periodicState,
+  (req, res, next) => {
+    try {
+      res.send(req.selected);
+    } catch (err) {
+      res.status(500).send({ error: true, message: "Invalid input syntax" });
+    }
+  }
+);
+
+app.get("/periodicTable/byId", periodicName, (req, res, next) => {
+  console.log(
+    req.selected.filter((el) => el.atomicNumber === parseInt(req.query.id))[0]
+  );
+  if (req.query.id !== undefined) {
+    try {
+      res.send(
+        req.selected.filter(
+          (el) => el.atomicNumber === parseInt(req.query.id)
+        )[0]
+      );
+    } catch (err) {
+      res.status(500).send({ error: true, message: "Invalid input syntax" });
+    }
+  } else {
+    res.status(500).send({ error: true, message: "Invalid input syntax" });
+  }
+});
+
+app.get("/periodicTable/all", (req, res, next) => {
+  try {
+    var data = JSON.parse(
+      fs
+        .readFileSync(path.join(FILES_PATH, `/periodicData.json`))
+        .toString("utf8")
+    );
+
+    res.send(data);
+  } catch (err) {
+    res.status(500).send({ error: true, message: "Invalid input syntax" });
+  }
+});
 
 const filterMinAndMax = function (req, res, next) {
   if (req.query.max !== undefined || req.query.min !== undefined) {

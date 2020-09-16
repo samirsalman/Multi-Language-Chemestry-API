@@ -83,7 +83,7 @@ const periodicName = function (req, res, next) {
 
 const periodicGroup = function (req, res, next) {
   console.log(req.selected);
-  if (req.query.gas !== undefined) {
+  if (req.query.group !== undefined) {
     var data = req.query.selected;
 
     selected = data.filter((el) => {

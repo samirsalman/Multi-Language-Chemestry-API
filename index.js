@@ -2,10 +2,23 @@ const express = require("express");
 const fs = require("fs");
 const app = express();
 const path = require("path");
+const rateLimit = require("express-rate-limit");
 
 const PORT = process.env.PORT || 3000;
 
 const FILES_PATH = process.cwd();
+
+const limiter = rateLimit({
+  windowMs: 24 * 60 * 60 * 1000, // 15 minutes
+  max: 100, // limit each IP to 100 requests per windowMs
+
+  message: {
+    error: true,
+    message: "Too many requests, please try again later.",
+  },
+});
+
+app.use(limiter);
 
 app.listen(PORT, function () {
   console.log(`I'm listening on port : `, PORT);

@@ -1,0 +1,1410 @@
+[
+  {
+    "no": 1,
+    "name": "Acetaldehyd",
+    "formula": "C2H4O",
+    "molarMass": 44.053,
+    "density": "0-30%",
+    "rangeOfConcentration": "18°C"
+  },
+  {
+    "no": 2,
+    "name": "Acetamid",
+    "formula": "C2H5NO",
+    "molarMass": 59.068,
+    "density": "0-6%",
+    "rangeOfConcentration": "15°C"
+  },
+  {
+    "no": 3,
+    "name": "Aceton",
+    "formula": "C3H6O",
+    "molarMass": 58.08,
+    "density": "0-100%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 4,
+    "name": "Acetonitril",
+    "formula": "C2H3N",
+    "molarMass": 41.053,
+    "density": "0-16%",
+    "rangeOfConcentration": "15°C"
+  },
+  {
+    "no": 5,
+    "name": "Aluminiumnitrat",
+    "formula": "Al(NO3)3",
+    "molarMass": 212.994,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 6,
+    "name": "Aluminiumsulfat",
+    "formula": "Al2(SO4)3",
+    "molarMass": 342.132,
+    "density": "0-26%",
+    "rangeOfConcentration": "15°C"
+  },
+  {
+    "no": 7,
+    "name": "Aluminiumchlorid",
+    "formula": "AlCl3",
+    "molarMass": 133.33,
+    "density": "0-40%",
+    "rangeOfConcentration": "15°C"
+  },
+  {
+    "no": 8,
+    "name": "Ameisensäure",
+    "formula": "CH2O2",
+    "molarMass": 46.025,
+    "density": "0-100%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 9,
+    "name": "Ammoniak",
+    "formula": "NH3",
+    "molarMass": 17.031,
+    "density": "0-30%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 10,
+    "name": "Ammoniumacetat",
+    "formula": "CH3COONH4",
+    "molarMass": 77.083,
+    "density": "0-45%",
+    "rangeOfConcentration": "25°C"
+  },
+  {
+    "no": 11,
+    "name": "Ammoniumcarbonat",
+    "formula": "(NH4)2CO3",
+    "molarMass": 96.086,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 12,
+    "name": "Ammoniumchlorid",
+    "formula": "NH4Cl",
+    "molarMass": 53.49,
+    "density": "0-24%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 13,
+    "name": "Ammoniumdichromat",
+    "formula": "(NH4)2Cr2O7",
+    "molarMass": 252.063,
+    "density": "0-20%",
+    "rangeOfConcentration": "12°C"
+  },
+  {
+    "no": 14,
+    "name": "Ammoniumhydroxid",
+    "formula": "NH4OH",
+    "molarMass": 35.046,
+    "density": "0-62%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 15,
+    "name": "Ammoniumnitrat",
+    "formula": "NH4NO3",
+    "molarMass": 80.043,
+    "density": "0-50%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 16,
+    "name": "Ammoniumoxalat",
+    "formula": "(NH4)2C2O4",
+    "molarMass": 124.096,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 17,
+    "name": "Ammoniumsulfat",
+    "formula": "(NH4)2SO4",
+    "molarMass": 132.13,
+    "density": "0-50%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 18,
+    "name": "Ammoniumeisen(II)-sulfat",
+    "formula": "FeSO4+(NH4)2SO4",
+    "molarMass": 284.04,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 19,
+    "name": "Antimon(III)-chlorid",
+    "formula": "SbCl3",
+    "molarMass": 228.11,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 20,
+    "name": "Antimon(V)-chlorid",
+    "formula": "SbCl5",
+    "molarMass": 299.01,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 21,
+    "name": "Bariumchlorid",
+    "formula": "BaCl2",
+    "molarMass": 208.23,
+    "density": "0-26%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 22,
+    "name": "Bariumhydroxid",
+    "formula": "Ba(OH)2",
+    "molarMass": 171.34,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 23,
+    "name": "Bariumnitrat",
+    "formula": "Ba(NO3)2",
+    "molarMass": 261.34,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 24,
+    "name": "Bismut(III)-chlorid",
+    "formula": "BiCl3",
+    "molarMass": 315.33,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 25,
+    "name": "Bismut(III)-nitrat",
+    "formula": "Bi(NO3)3",
+    "molarMass": 394.99,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 26,
+    "name": "Bromwasserstoffsäure",
+    "formula": "HBr",
+    "molarMass": 80.912,
+    "density": "0-65%",
+    "rangeOfConcentration": "25°C"
+  },
+  {
+    "no": 27,
+    "name": "1-Butanol",
+    "formula": "C4H10O",
+    "molarMass": 74.123,
+    "density": "0-8%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 28,
+    "name": "Buttersäure",
+    "formula": "C4H8O2",
+    "molarMass": 88.106,
+    "density": "0-62%",
+    "rangeOfConcentration": "25°C"
+  },
+  {
+    "no": 29,
+    "name": "Kadmiumnitrat",
+    "formula": "Cd(NO3)2",
+    "molarMass": 236.42,
+    "density": "0-50%",
+    "rangeOfConcentration": "18°C"
+  },
+  {
+    "no": 30,
+    "name": "Kadmiumsulfat",
+    "formula": "CdSO4",
+    "molarMass": 208.47,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 31,
+    "name": "Calciumchlorid",
+    "formula": "CaCl2",
+    "molarMass": 110.98,
+    "density": "0-40%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 32,
+    "name": "Calciumhydroxid",
+    "formula": "Ca(OH)2",
+    "molarMass": 74.092,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 33,
+    "name": "Calciumnitrat",
+    "formula": "Ca(NO3)2",
+    "molarMass": 164.086,
+    "density": "0-68%",
+    "rangeOfConcentration": "18°C"
+  },
+  {
+    "no": 34,
+    "name": "Calciumsulfat",
+    "formula": "CaSO4",
+    "molarMass": 136.13,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 35,
+    "name": "Chloressigsäure",
+    "formula": "C2H3ClO2",
+    "molarMass": 94.49,
+    "density": "0-32%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 36,
+    "name": "Chloroform",
+    "formula": "CHCl3",
+    "molarMass": 119.37,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 37,
+    "name": "Chrom(III)-chlorid",
+    "formula": "CrCl3",
+    "molarMass": 158.35,
+    "density": "0-14%",
+    "rangeOfConcentration": "18°C"
+  },
+  {
+    "no": 38,
+    "name": "Chrom(III)-nitrat",
+    "formula": "Cr(NO3)3",
+    "molarMass": 238.008,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 39,
+    "name": "Chrom(III)-sulfat",
+    "formula": "Cr2(SO4)3",
+    "molarMass": 392.16,
+    "density": "0-40%",
+    "rangeOfConcentration": "15°C"
+  },
+  {
+    "no": 40,
+    "name": "Chrom(VI)-oxid",
+    "formula": "CrO3",
+    "molarMass": 99.993,
+    "density": "0-60%",
+    "rangeOfConcentration": "15°C"
+  },
+  {
+    "no": 41,
+    "name": "Citronensäure",
+    "formula": "C6H8O7",
+    "molarMass": 192.123,
+    "density": "0-55%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 42,
+    "name": "Kobalt(II)-nitrat",
+    "formula": "Co(NO3)2",
+    "molarMass": 182.941,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 43,
+    "name": "Kobalt(II)-sulfat",
+    "formula": "CoSO4",
+    "molarMass": 154.99,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 44,
+    "name": "Kupfer(I)-chlorid",
+    "formula": "Cu2Cl2",
+    "molarMass": 197.99,
+    "density": "0-20%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 45,
+    "name": "Kupfer(II)-chlorid",
+    "formula": "CuCl2",
+    "molarMass": 134.45,
+    "density": "0-20%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 46,
+    "name": "Kupfer(II)-nitrat",
+    "formula": "Cu(NO3)2",
+    "molarMass": 187.554,
+    "density": "0-25%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 47,
+    "name": "Kupfer(II)-sulfat",
+    "formula": "CuSO4",
+    "molarMass": 159.6,
+    "density": "0-20%",
+    "rangeOfConcentration": "18°C"
+  },
+  {
+    "no": 48,
+    "name": "Cyanwasserstoffsäure",
+    "formula": "HCN",
+    "molarMass": 27.026,
+    "density": "0-16%",
+    "rangeOfConcentration": "15°C"
+  },
+  {
+    "no": 49,
+    "name": "Dichloressigsäure",
+    "formula": "C2H2Cl2O2",
+    "molarMass": 128.94,
+    "density": "0-30%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 50,
+    "name": "Diethylether",
+    "formula": "(C2H5)2O",
+    "molarMass": 74.123,
+    "density": "0-5%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 51,
+    "name": "Dimethylglyoxim",
+    "formula": "(CH3CNOH)2",
+    "molarMass": 116.12,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 52,
+    "name": "Dinatrium-EDTA",
+    "formula": "Na2C10H14N2O8",
+    "molarMass": 336.21,
+    "density": "0-6%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 53,
+    "name": "Essigsäure",
+    "formula": "CH3COOH",
+    "molarMass": 60.052,
+    "density": "0-100%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 54,
+    "name": "Ethanol",
+    "formula": "C2H5OH",
+    "molarMass": 46.069,
+    "density": "0-100%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 55,
+    "name": "Ethylenglycol",
+    "formula": "(CH2OH)2",
+    "molarMass": 62.068,
+    "density": "0-60%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 56,
+    "name": "Fluorwasserstoffsäure",
+    "formula": "HF",
+    "molarMass": 20.006,
+    "density": "0-50%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 57,
+    "name": "Formaldehyd",
+    "formula": "CH2O",
+    "molarMass": 30.026,
+    "density": "0-40%",
+    "rangeOfConcentration": "15°C"
+  },
+  {
+    "no": 58,
+    "name": "Fructose",
+    "formula": "C6H12O6",
+    "molarMass": 180.156,
+    "density": "0-48%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 59,
+    "name": "Glucose",
+    "formula": "C6H12O6",
+    "molarMass": 180.156,
+    "density": "0-60%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 60,
+    "name": "Glycerin",
+    "formula": "C3H8O3",
+    "molarMass": 92.094,
+    "density": "0-100%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 61,
+    "name": "Harnstoff",
+    "formula": "(NH2)2CO",
+    "molarMass": 60.056,
+    "density": "0-46%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 62,
+    "name": "Hexachloridoplatinsäure",
+    "formula": "H2PtCl6",
+    "molarMass": 409.8,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 63,
+    "name": "Hexafluoridokieselsäure",
+    "formula": "H2SiF6",
+    "molarMass": 144.089,
+    "density": "0-34%",
+    "rangeOfConcentration": "17.5°C"
+  },
+  {
+    "no": 64,
+    "name": "Hydrazin",
+    "formula": "N2H4",
+    "molarMass": 32.046,
+    "density": "0-60%",
+    "rangeOfConcentration": "15°C"
+  },
+  {
+    "no": 65,
+    "name": "Iodsäure",
+    "formula": "HIO3",
+    "molarMass": 175.9,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 66,
+    "name": "Iodwasserstoffsäure",
+    "formula": "HI",
+    "molarMass": 127.9,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 67,
+    "name": "Eisen(II)-sulfat",
+    "formula": "FeSO4",
+    "molarMass": 151.9,
+    "density": "0-20%",
+    "rangeOfConcentration": "18°C"
+  },
+  {
+    "no": 68,
+    "name": "Eisen(III)-chlorid",
+    "formula": "FeCl3",
+    "molarMass": 162.2,
+    "density": "0-50%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 69,
+    "name": "Eisen(III)-nitrat",
+    "formula": "Fe(NO3)3",
+    "molarMass": 241.857,
+    "density": "0-25%",
+    "rangeOfConcentration": "18°C"
+  },
+  {
+    "no": 70,
+    "name": "Eisen(III)-sulfat",
+    "formula": "Fe2(SO4)3",
+    "molarMass": 399.86,
+    "density": "0-20%",
+    "rangeOfConcentration": "17.5°C"
+  },
+  {
+    "no": 71,
+    "name": "Isobutanol",
+    "formula": "C4H10O",
+    "molarMass": 74.123,
+    "density": "0-8%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 72,
+    "name": "Kaliumdihydrogenphosphat",
+    "formula": "KH2PO4",
+    "molarMass": 136.084,
+    "density": "0-10%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 73,
+    "name": "Kaliumhexacyanidoferrat(II)",
+    "formula": "K4Fe(CN)6",
+    "molarMass": 368.345,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 74,
+    "name": "Kaliumhexacyanidoferrat(III)",
+    "formula": "K3Fe(CN)6",
+    "molarMass": 329.247,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 75,
+    "name": "Kaliumhydrogenphosphat",
+    "formula": "K2HPO4",
+    "molarMass": 174.174,
+    "density": "0-8%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 76,
+    "name": "Kaliumnatriumtartrat",
+    "formula": "NaKC4H4O6",
+    "molarMass": 210.16,
+    "density": "0-36%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 77,
+    "name": "Kohlenstoffdisulfid",
+    "formula": "CS2",
+    "molarMass": 76.13,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 78,
+    "name": "Lactose",
+    "formula": "C12H22O11",
+    "molarMass": 342.297,
+    "density": "0-18%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 79,
+    "name": "Blei(II)-acetat",
+    "formula": "Pb(C2H3O2)2",
+    "molarMass": 325.3,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 80,
+    "name": "Blei(II)-chlorid",
+    "formula": "PbCl2",
+    "molarMass": 278.1,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 81,
+    "name": "Blei(II)-nitrat",
+    "formula": "Pb(NO3)2",
+    "molarMass": 331.2,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 82,
+    "name": "Blei(IV)-acetat",
+    "formula": "Pb(C2H3O2)4",
+    "molarMass": 443.4,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 83,
+    "name": "Lithiumchlorid",
+    "formula": "LiCl",
+    "molarMass": 42.39,
+    "density": "0-30%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 84,
+    "name": "Magnesiumchlorid",
+    "formula": "MgCl2",
+    "molarMass": 95.21,
+    "density": "0-30%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 85,
+    "name": "Magnesiumnitrat",
+    "formula": "Mg(NO3)2",
+    "molarMass": 148.313,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 86,
+    "name": "Magnesiumsulfat",
+    "formula": "MgSO4",
+    "molarMass": 120.36,
+    "density": "0-26%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 87,
+    "name": "Maleinsäure",
+    "formula": "C4H4O4",
+    "molarMass": 116.072,
+    "density": "0-40%",
+    "rangeOfConcentration": "25°C"
+  },
+  {
+    "no": 88,
+    "name": "Malonsäure",
+    "formula": "C3H4O4",
+    "molarMass": 104.061,
+    "density": "0-40%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 89,
+    "name": "Maltose",
+    "formula": "C12H22O11",
+    "molarMass": 342.297,
+    "density": "0-60%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 90,
+    "name": "Mangan(II)-chlorid",
+    "formula": "MnCl2",
+    "molarMass": 125.84,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 91,
+    "name": "Mangan(II)-sulfat",
+    "formula": "MnSO4",
+    "molarMass": 150.99,
+    "density": "0-30%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 92,
+    "name": "Mannitol",
+    "formula": "C6H14O6",
+    "molarMass": 182.172,
+    "density": "0-15%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 93,
+    "name": "Quecksilber(II)-chlorid",
+    "formula": "HgCl2",
+    "molarMass": 271.49,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 94,
+    "name": "Quecksilber(II)-nitrat",
+    "formula": "Hg(NO3)2",
+    "molarMass": 324.6,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 95,
+    "name": "Quecksilber(II)-sulfat",
+    "formula": "HgSO4",
+    "molarMass": 296.65,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 96,
+    "name": "Methanol",
+    "formula": "CH3OH",
+    "molarMass": 32.042,
+    "density": "0-100%",
+    "rangeOfConcentration": "15°C"
+  },
+  {
+    "no": 97,
+    "name": "Methylacetat",
+    "formula": "C3H6O2",
+    "molarMass": 74.079,
+    "density": "0-20%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 98,
+    "name": "Milchsäure",
+    "formula": "C3H6O3",
+    "molarMass": 90.078,
+    "density": "0-80%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 99,
+    "name": "Natriumcitrat",
+    "formula": "Na3C6H5O7",
+    "molarMass": 258.07,
+    "density": "0-36%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 100,
+    "name": "Natriumdihydrogenphosphat",
+    "formula": "NaH2PO4",
+    "molarMass": 119.98,
+    "density": "0-40%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 101,
+    "name": "Natriumformiat",
+    "formula": "HCOONa",
+    "molarMass": 68.01,
+    "density": "0-40%",
+    "rangeOfConcentration": "25°C"
+  },
+  {
+    "no": 102,
+    "name": "Natriumhydrogencarbonat",
+    "formula": "NaHCO3",
+    "molarMass": 84.01,
+    "density": "0-6%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 103,
+    "name": "Natriumhydrogenphosphat",
+    "formula": "Na2HPO4",
+    "molarMass": 141.96,
+    "density": "0-6%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 104,
+    "name": "Natriumhydrogentartrat",
+    "formula": "NaHC4H4O6",
+    "molarMass": 172.07,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 105,
+    "name": "Nickelchlorid",
+    "formula": "NiCl2",
+    "molarMass": 129.59,
+    "density": "0-30%",
+    "rangeOfConcentration": "18°C"
+  },
+  {
+    "no": 106,
+    "name": "Nickelnitrat",
+    "formula": "Ni(NO3)2",
+    "molarMass": 182.701,
+    "density": "0-35%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 107,
+    "name": "Nickelsulfat",
+    "formula": "NiSO4",
+    "molarMass": 154.75,
+    "density": "0-18%",
+    "rangeOfConcentration": "18°C"
+  },
+  {
+    "no": 108,
+    "name": "Nicotin",
+    "formula": "C10H14N2",
+    "molarMass": 162.236,
+    "density": "0-60%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 109,
+    "name": "Oxalsäure",
+    "formula": "H2C2O4",
+    "molarMass": 90.034,
+    "density": "0-10%",
+    "rangeOfConcentration": "17.5°C"
+  },
+  {
+    "no": 110,
+    "name": "1-Pentanol",
+    "formula": "C5H11OH",
+    "molarMass": 88.15,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 111,
+    "name": "Perchlorsäure",
+    "formula": "HClO4",
+    "molarMass": 100.45,
+    "density": "0-70%",
+    "rangeOfConcentration": "15°C"
+  },
+  {
+    "no": 112,
+    "name": "Phenol",
+    "formula": "C6H6O",
+    "molarMass": 94.113,
+    "density": "0-5%",
+    "rangeOfConcentration": "15°C"
+  },
+  {
+    "no": 113,
+    "name": "Phosphorsäure",
+    "formula": "H3PO4",
+    "molarMass": 97.994,
+    "density": "0-100%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 114,
+    "name": "Kaliumbicarbonat",
+    "formula": "KHCO3",
+    "molarMass": 100.114,
+    "density": "0-24%",
+    "rangeOfConcentration": "15°C"
+  },
+  {
+    "no": 115,
+    "name": "Kaliumbromat",
+    "formula": "KBrO3",
+    "molarMass": 166.999,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 116,
+    "name": "Kaliumbromid",
+    "formula": "KBr",
+    "molarMass": 119.002,
+    "density": "0-40%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 117,
+    "name": "Kaliumcarbonat",
+    "formula": "K2CO3",
+    "molarMass": 138.204,
+    "density": "0-50%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 118,
+    "name": "Kaliumchlorat",
+    "formula": "KClO3",
+    "molarMass": 122.55,
+    "density": "0-4%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 119,
+    "name": "Kaliumchlorid",
+    "formula": "KCl",
+    "molarMass": 74.55,
+    "density": "0-24%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 120,
+    "name": "Kaliumchromat",
+    "formula": "K2CrO4",
+    "molarMass": 194.188,
+    "density": "0-30%",
+    "rangeOfConcentration": "18°C"
+  },
+  {
+    "no": 121,
+    "name": "Kaliumcyanid",
+    "formula": "KCN",
+    "molarMass": 65.116,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 122,
+    "name": "Kaliumdichromat",
+    "formula": "K2Cr2O7",
+    "molarMass": 294.181,
+    "density": "0-10%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 123,
+    "name": "Kaliumhydroxid",
+    "formula": "KOH",
+    "molarMass": 56.105,
+    "density": "0-50%",
+    "rangeOfConcentration": "15°C"
+  },
+  {
+    "no": 124,
+    "name": "Kaliumiodat",
+    "formula": "KIO3",
+    "molarMass": 214,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 125,
+    "name": "Kaliumiodid",
+    "formula": "KI",
+    "molarMass": 166,
+    "density": "0-55%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 126,
+    "name": "Kaliumnitrat",
+    "formula": "KNO3",
+    "molarMass": 101.102,
+    "density": "0-24%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 127,
+    "name": "Kaliumnitrit",
+    "formula": "KNO2",
+    "molarMass": 85.103,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 128,
+    "name": "Kaliumpermanganat",
+    "formula": "KMnO4",
+    "molarMass": 158.032,
+    "density": "0-6%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 129,
+    "name": "Kaliumsulfat",
+    "formula": "K2SO4",
+    "molarMass": 174.25,
+    "density": "0-10%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 130,
+    "name": "Kaliumsulfit",
+    "formula": "K2SO3",
+    "molarMass": 158.25,
+    "density": "0-26%",
+    "rangeOfConcentration": "15°C"
+  },
+  {
+    "no": 131,
+    "name": "Kaliumtartrat",
+    "formula": "K2C4H4O6",
+    "molarMass": 226.266,
+    "density": "0-50%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 132,
+    "name": "Kaliumthiocyanat",
+    "formula": "KCNS",
+    "molarMass": 97.18,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 133,
+    "name": "1-Propanol",
+    "formula": "CH3CH2CH2OH",
+    "molarMass": 60.096,
+    "density": "0-100%",
+    "rangeOfConcentration": "15°C"
+  },
+  {
+    "no": 134,
+    "name": "2-Propanol",
+    "formula": "CH3CHOHCH3",
+    "molarMass": 60.096,
+    "density": "0-100%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 135,
+    "name": "Pyridin",
+    "formula": "C5H5N",
+    "molarMass": 79.102,
+    "density": "0-60%",
+    "rangeOfConcentration": "25°C"
+  },
+  {
+    "no": 136,
+    "name": "Resorcin",
+    "formula": "C6H6O2",
+    "molarMass": 110.112,
+    "density": "0-52%",
+    "rangeOfConcentration": "18°C"
+  },
+  {
+    "no": 137,
+    "name": "Saccharose",
+    "formula": "C12H22O11",
+    "molarMass": 342.297,
+    "density": "0-89%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 138,
+    "name": "Salpetersäure",
+    "formula": "HNO3",
+    "molarMass": 63.012,
+    "density": "0-100%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 139,
+    "name": "Salzsäure",
+    "formula": "HCl",
+    "molarMass": 36.46,
+    "density": "0-40%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 140,
+    "name": "Schwefelsäure",
+    "formula": "H2SO4",
+    "molarMass": 98.07,
+    "density": "0-100%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 141,
+    "name": "Schwefligsäure",
+    "formula": "H2SO3",
+    "molarMass": 82.07,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 142,
+    "name": "Silbernitrat",
+    "formula": "AgNO3",
+    "molarMass": 169.87,
+    "density": "0-40%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 143,
+    "name": "Silbersulfat",
+    "formula": "Ag2SO4",
+    "molarMass": 311.8,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 144,
+    "name": "Natriumacetat",
+    "formula": "NaC2H3O2",
+    "molarMass": 82.03,
+    "density": "0-28%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 145,
+    "name": "Natriumarsenat",
+    "formula": "Na3AsO4",
+    "molarMass": 207.89,
+    "density": "0-12%",
+    "rangeOfConcentration": "17°C"
+  },
+  {
+    "no": 146,
+    "name": "Natriumbromid",
+    "formula": "NaBr",
+    "molarMass": 102.89,
+    "density": "0-40%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 147,
+    "name": "Natriumcarbonat",
+    "formula": "Na2CO3",
+    "molarMass": 105.99,
+    "density": "0-14%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 148,
+    "name": "Natriumchlorat",
+    "formula": "NaClO3",
+    "molarMass": 106.44,
+    "density": "0-34%",
+    "rangeOfConcentration": "18°C"
+  },
+  {
+    "no": 149,
+    "name": "Natriumchlorid",
+    "formula": "NaCl",
+    "molarMass": 58.44,
+    "density": "0-26%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 150,
+    "name": "Natriumchromat",
+    "formula": "Na2CrO4",
+    "molarMass": 161.97,
+    "density": "0-26%",
+    "rangeOfConcentration": "18°C"
+  },
+  {
+    "no": 151,
+    "name": "Natriumdichromat",
+    "formula": "Na2Cr2O7",
+    "molarMass": 261.97,
+    "density": "0-50%",
+    "rangeOfConcentration": "15°C"
+  },
+  {
+    "no": 152,
+    "name": "Natriumhydroxid",
+    "formula": "NaOH",
+    "molarMass": 40,
+    "density": "0-50%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 153,
+    "name": "Natriumnitrat",
+    "formula": "NaNO3",
+    "molarMass": 84.99,
+    "density": "0-45%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 154,
+    "name": "Natriumnitrit",
+    "formula": "NaNO2",
+    "molarMass": 69,
+    "density": "0-20%",
+    "rangeOfConcentration": "15°C"
+  },
+  {
+    "no": 155,
+    "name": "Natriumphosphat",
+    "formula": "Na3PO4",
+    "molarMass": 163.94,
+    "density": "0-8%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 156,
+    "name": "Natriumsulfat",
+    "formula": "Na2SO4",
+    "molarMass": 142.04,
+    "density": "0-24%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 157,
+    "name": "Natriumsulfid",
+    "formula": "Na2S",
+    "molarMass": 78.04,
+    "density": "0-18%",
+    "rangeOfConcentration": "18°C"
+  },
+  {
+    "no": 158,
+    "name": "Natriumsulfit",
+    "formula": "Na2SO3",
+    "molarMass": 126.04,
+    "density": "0-18%",
+    "rangeOfConcentration": "19°C"
+  },
+  {
+    "no": 159,
+    "name": "Natriumtartrat",
+    "formula": "Na2C4H4O6",
+    "molarMass": 194.05,
+    "density": "0-28%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 160,
+    "name": "Natriumthiosulfat",
+    "formula": "Na2S2O3",
+    "molarMass": 158.1,
+    "density": "0-40%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 161,
+    "name": "Strontiumchlorid",
+    "formula": "SrCl2",
+    "molarMass": 158.52,
+    "density": "0-36%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 162,
+    "name": "Strontiumnitrat",
+    "formula": "Sr(NO3)2",
+    "molarMass": 211.63,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 163,
+    "name": "Strontiumsulfat",
+    "formula": "SrSO4",
+    "molarMass": 183.68,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 164,
+    "name": "Tetrachloridogoldsäure",
+    "formula": "HAuCl4",
+    "molarMass": 339.78,
+    "density": "-",
+    "rangeOfConcentration": null
+  },
+  {
+    "no": 165,
+    "name": "Thioharnstoff",
+    "formula": "CH4N2S",
+    "molarMass": 76.12,
+    "density": "0-7%",
+    "rangeOfConcentration": "15°C"
+  },
+  {
+    "no": 166,
+    "name": "Zinn(II)-chlorid",
+    "formula": "SnCl2",
+    "molarMass": 189.61,
+    "density": "0-65%",
+    "rangeOfConcentration": "15°C"
+  },
+  {
+    "no": 167,
+    "name": "Zinn(IV)-chlorid",
+    "formula": "SnCl4",
+    "molarMass": 260.51,
+    "density": "0-70%",
+    "rangeOfConcentration": "15°C"
+  },
+  {
+    "no": 168,
+    "name": "Trichloressigsäure",
+    "formula": "CCl3COOH",
+    "molarMass": 163.38,
+    "density": "0-48%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 169,
+    "name": "TRIS",
+    "formula": "(HOCH2)3CNH2",
+    "molarMass": 121.136,
+    "density": "0-40%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 170,
+    "name": "Urethane",
+    "formula": "C3H7NO2",
+    "molarMass": 89.094,
+    "density": "0-56%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 171,
+    "name": "Wasserstoffperoxid",
+    "formula": "H2O2",
+    "molarMass": 34.014,
+    "density": "0-100%",
+    "rangeOfConcentration": "18°C"
+  },
+  {
+    "no": 172,
+    "name": "Weinsäure",
+    "formula": "H2C4H4O6",
+    "molarMass": 150.086,
+    "density": "0-56%",
+    "rangeOfConcentration": "15°C"
+  },
+  {
+    "no": 173,
+    "name": "Zinkbromid",
+    "formula": "ZnBr2",
+    "molarMass": 225.19,
+    "density": "0-65%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 174,
+    "name": "Zinkchlorid",
+    "formula": "ZnCl2",
+    "molarMass": 136.28,
+    "density": "0-70%",
+    "rangeOfConcentration": "20°C"
+  },
+  {
+    "no": 175,
+    "name": "Zinknitrat",
+    "formula": "Zn(NO3)2",
+    "molarMass": 189.39,
+    "density": "0-50%",
+    "rangeOfConcentration": "18°C"
+  },
+  {
+    "no": 176,
+    "name": "Zinksulfat",
+    "formula": "ZnSO4",
+    "molarMass": 161.44,
+    "density": "0-16%",
+    "rangeOfConcentration": "20°C"
+  }
+]

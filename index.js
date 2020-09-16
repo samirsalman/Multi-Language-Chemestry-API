@@ -1,8 +1,11 @@
 const express = require("express");
 const fs = require("fs");
 const app = express();
+const path = require("path");
 
 const PORT = process.env.PORT || 3000;
+
+const FILES_PATH = process.cwd();
 
 app.listen(PORT, function () {
   console.log(`I'm listening on port : `, PORT);
@@ -19,7 +22,12 @@ app.get("/compounds/all", verifyLang, (req, res, next) => {
   try {
     var data = JSON.parse(
       fs
-        .readFileSync(`./chemical_compounds_${req.query.lang.trim()}.json`)
+        .readFileSync(
+          path.join(
+            FILES_PATH,
+            `/chemical_compounds_${req.query.lang.trim()}.json`
+          )
+        )
         .toString("utf8")
     );
 
@@ -34,7 +42,12 @@ const thereIsName = function (req, res, next) {
     try {
       var data = JSON.parse(
         fs
-          .readFileSync(`./chemical_compounds_${req.query.lang.trim()}.json`)
+          .readFileSync(
+            path.join(
+              FILES_PATH,
+              `chemical_compounds_${req.query.lang.trim()}.json`
+            )
+          )
           .toString("utf8")
       );
       var selected = data.filter((el) => {
@@ -57,7 +70,12 @@ const filterMinAndMax = function (req, res, next) {
     try {
       var data = JSON.parse(
         fs
-          .readFileSync(`./chemical_compounds_${req.query.lang.trim()}.json`)
+          .readFileSync(
+            path.join(
+              FILES_PATH,
+              `chemical_compounds_${req.query.lang.trim()}.json`
+            )
+          )
           .toString("utf8")
       );
       var selected = null;
@@ -99,7 +117,12 @@ app.get("/compounds/byId", verifyLang, (req, res, next) => {
     try {
       var data = JSON.parse(
         fs
-          .readFileSync(`./chemical_compounds_${req.query.lang.trim()}.json`)
+          .readFileSync(
+            path.join(
+              FILES_PATH,
+              `chemical_compounds_${req.query.lang.trim()}.json`
+            )
+          )
           .toString("utf8")
       );
       var selected = data.filter((el) => {

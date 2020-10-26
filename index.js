@@ -6,7 +6,7 @@ const rateLimit = require("express-rate-limit");
 
 const PORT = process.env.PORT || 3000;
 
-const FILES_PATH = process.cwd();
+const FILES_PATH = path.join(process.cwd(),"/data");
 
 const limiter = rateLimit({
   windowMs: 24 * 60 * 60 * 1000, // 15 minutes

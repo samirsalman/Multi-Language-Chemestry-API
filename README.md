@@ -1,6 +1,6 @@
 # Multi-language Chemestry API
  
-## API Functionality
+## API Functionalities
 
 With Multi-language Chemistry API v1.0 you can:
 
